@@ -41,7 +41,7 @@ margin-top: 8rem;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.1);
     position: relative;
-    overflow-x: visible;
+    /* overflow-x: visible; */
 }
 
 .MainQuote{
@@ -68,3 +68,102 @@ margin-top: 8px;
     font-size: 28px;
     text-align: center;
 }
+
+
+/*_----------------------------------
+   Media queries begins here
+-----------------------------------*/
+
+
+
+
+/*_----------------------------------
+        Media for width:768px
+-----------------------------------*/
+@media screen and (max-width:768px){
+    .cardComponent {width: 41rem;}
+
+    .MainQuote {
+        font-size: 39px;}
+
+        .patternDivider {width: 106%;}
+
+
+        .icondice-A {
+            margin-left: 15.5rem;
+            width: 80px;
+            height: 80px}
+
+            .loader{width: 50px;
+               height: 50px;
+            left: 18rem;
+        }
+
+
+}
+
+
+
+/*_----------------------------------
+   Media for width:414px
+-----------------------------------*/
+@media screen and (max-width:430px){
+    .cardComponent {
+        width: 28rem;margin-left: 14px}
+        .MainQuote {
+            font-size: 33px;}
+
+            .patternDivider { margin-left: -47px}
+
+            .icondice-A {margin-left: 9.5rem}
+
+
+}
+
+
+
+
+
+/*_----------------------------------
+   Media for width:414px
+-----------------------------------*/
+
+@media screen and (max-width:414px){
+    .cardComponent {width: 28rem; margin-left: 14px}
+    .patternDivider {margin-left: -46px}
+
+    .icondice-A { margin-left: 9.5rem}
+
+  }
+
+
+
+
+/*_----------------------------------
+   Media for width:375px
+-----------------------------------*/
+
+@media screen and (max-width:375px){
+    
+    .cardComponent {width: 22rem; margin-left: 11px;}
+
+    .patternDivider {
+        margin-left: -34px;
+        width: 116%;}
+        .icondice-A { margin-left: 6.5rem}
+        .loader{left: 10rem;}
+
+  }
+
+/*_----------------------------------
+   Media for width:360px
+-----------------------------------*/
+
+
+  @media screen and (max-width:360px){
+
+    .cardComponent { margin-left: 4px}
+
+  }
+
+

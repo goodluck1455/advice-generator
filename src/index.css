@@ -129,10 +129,18 @@ margin-top: 8px;
 -----------------------------------*/
 
 @media screen and (max-width:414px){
-    .cardComponent {width: 28rem; margin-left: 14px}
-    .patternDivider {margin-left: -46px}
+    .cardComponent {width: 24rem; margin-left: 14px;}
+    .patternDivider {margin-left: -46px; width: 120%;}
 
-    .icondice-A { margin-left: 9.5rem}
+    .icondice-A { margin-left: 6.5rem;}
+
+    .icondice-A {
+        width: 70px;
+        height: 70px;
+    }
+
+    .loader{width: 40px;
+        height: 40px; left: 10rem;}
 
   }
 

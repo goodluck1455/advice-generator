@@ -1,7 +1,8 @@
+import Icondice from "/icon-dice.svg";
 
-import Icondice from "./images/icon-dice.svg";
-import patternDivider from "./images/pattern-divider-desktop.svg";
-import "../components/cardimage.css"
+import patternDivider from "/pattern-divider-desktop.svg";
+// import patternDivider from "../images/pattern-divider-desktop.svg";
+import "../components/cardimage.css";
 
 // function Cardimage({ onClick }){
 //     return(
@@ -14,28 +15,25 @@ import "../components/cardimage.css"
 //              <img src={Icondice} alt="" className='icondice'/>
 //              </div>
 //              </div>
-     
+
 //         </>
 //     )
-// } 
+// }
 
-  
 //   export default Cardimage;
 
-
-
-
-
-
-
-
-function Cardimage({ onClick, loading }) {
+function Cardimage({
+  onClick,
+  loading,  // Add this line even if not used in the component
+}: {
+  onClick: () => void | Promise<void>;
+  loading?: boolean;  // Make loading optional
+}) {
   return (
-    <div className="audit">
-      
+    <div className="audit" >
       <img src={patternDivider} alt="" className="patternDivider" />
 
-      <div className="icondice-A" onClick={onClick}>
+      <div className="icondice-A" onClick={onClick} >
         {loading ? (
           // Display a loader with a spinner while loading
           <div className="loader"></div>
@@ -43,29 +41,11 @@ function Cardimage({ onClick, loading }) {
           <img src={Icondice} alt="" className="icondice" />
         )}
       </div>
-      
     </div>
   );
 }
 
 export default Cardimage;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // function Cardimage({ onClick, loading }) {
 //   return (
@@ -88,47 +68,18 @@ export default Cardimage;
 
 // export default Cardimage;
 
+// function Cardimage({ onClick }) {
+//   return (
+//     <>
+//       <div className="audit">
+//         <img src={patternDivider} alt="" className="patternDivider" />
 
+//         <div className="icondice-A" onClick={onClick}>
+//           <img src={Icondice} alt="" className="icondice" />
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // function Cardimage({ onClick }) {
-  //   return (
-  //     <>
-  //       <div className="audit">
-  //         <img src={patternDivider} alt="" className="patternDivider" />
-  
-  //         <div className="icondice-A" onClick={onClick}>
-  //           <img src={Icondice} alt="" className="icondice" />
-  //         </div>
-  //       </div>
-  //     </>
-  //   );
-  // }
-  
-  // export default Cardimage;
+// export default Cardimage;

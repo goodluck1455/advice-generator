@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 function Card() {
   const [quote, setQuote] = useState("");
   const [Id, setId] = useState("");
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   const fetchQuote = async () => {
@@ -32,6 +32,7 @@ function Card() {
   useEffect(() => {
     fetchQuote();
   }, []);
+  
 
   return (
     <div className="container">

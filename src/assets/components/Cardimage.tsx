@@ -32,7 +32,7 @@ function Cardimage({
   return (
     <div className="audit" >
       <img src={patternDivider} alt="" className="patternDivider" />
-
+      
       <div className="icondice-A" onClick={onClick} >
         {loading ? (
           // Display a loader with a spinner while loading

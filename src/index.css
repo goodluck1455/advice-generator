@@ -95,7 +95,8 @@ margin-top: 8px;
                     margin-left: 19.5rem;
                     width: 90px;
                     height: 90px;}
-                    .loader{left: 24rem;}
+                    .loader{left: 24rem; width: 40px;
+                        height: 40px;}
 
 }
 
@@ -151,6 +152,25 @@ margin-top: 8px;
 
 
 
+
+
+/*_----------------------------------
+        Media for width:540px
+-----------------------------------*/
+@media screen and (max-width:540px){
+    .cardComponent {
+        width: 31rem;
+    }
+    .loader {
+        left: 14rem}
+
+    .icondice-A {
+        margin-left: 10.5rem;}
+}
+
+
+
+
 /*_----------------------------------
    Media for width:414px
 -----------------------------------*/
@@ -164,7 +184,9 @@ margin-top: 8px;
 
             .icondice-A {margin-left: 7.5rem}
 
-
+            .loader {
+                left: 11rem;
+            }
 }
 
 

@@ -199,7 +199,7 @@ margin-top: 8px;
 
 @media screen and (max-width:414px){
     .cardComponent {width: 24rem; margin-left: 14px;}
-    .patternDivider {margin-left: -46px; width: 120%;}
+    .patternDivider {margin-left: -54px; width: 120%;}
 
     .icondice-A { margin-left: 6.5rem;}
 
@@ -216,16 +216,42 @@ margin-top: 8px;
 
 
 
+
+
+/*_----------------------------------
+   Media for width:412px
+-----------------------------------*/
+
+@media screen and (max-width:412px){
+    .patternDivider {
+        margin-left: -53px;}
+}
+
+
+
+
+
+/*_----------------------------------
+   Media for width:390px
+-----------------------------------*/
+
+@media screen and (max-width:390px){
+    .patternDivider {
+        margin-left: -54px;}
+}
+
+
+
 /*_----------------------------------
    Media for width:375px
 -----------------------------------*/
 
 @media screen and (max-width:375px){
     
-    .cardComponent {width: 22rem; margin-left: 11px;}
+    .cardComponent {width: 22rem; margin-left: 11px;margin-top: 2rem;}
 
     .patternDivider {
-        margin-left: -34px;
+        margin-left: -42px;
         width: 116%;}
         .icondice-A { margin-left: 6.5rem}
         .loader{left: 10rem;}
@@ -240,6 +266,8 @@ margin-top: 8px;
   @media screen and (max-width:360px){
 
     .cardComponent { margin-left: 4px}
+    .patternDivider {
+        margin-left: -48px;}
 
   }
 

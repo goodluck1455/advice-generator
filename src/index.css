@@ -76,6 +76,53 @@ margin-top: 8px;
 
 
 
+/*_----------------------------------
+        Media for width:1024px
+-----------------------------------*/
+@media screen and (max-width:1024px){
+
+    .cardComponent {
+        width: 50rem;}
+
+        .MainQuote {
+            font-size: 52px;}
+
+            .patternDivider {
+                margin-left: 29px;
+                width: 87%;}
+
+                .icondice-A {
+                    margin-left: 19.5rem;
+                    width: 90px;
+                    height: 90px;}
+                    .loader{left: 24rem;}
+
+}
+
+
+
+
+/*_----------------------------------
+        Media for width:820px
+-----------------------------------*/
+@media screen and (max-width:820px){
+
+    .cardComponent {width: 45rem;}
+
+        .MainQuote {font-size: 46px;}
+
+        .patternDivider {width: 97%; margin-left: -8px;}
+
+        .icondice-A {width: 90px; height: 90px; margin-left: 16.5rem;}
+
+}
+
+
+
+
+
+
+
 
 /*_----------------------------------
         Media for width:768px
@@ -86,7 +133,7 @@ margin-top: 8px;
     .MainQuote {
         font-size: 39px;}
 
-        .patternDivider {width: 106%;}
+        .patternDivider {width: 106%; margin-left: -29px;}
 
 
         .icondice-A {
@@ -109,13 +156,13 @@ margin-top: 8px;
 -----------------------------------*/
 @media screen and (max-width:430px){
     .cardComponent {
-        width: 28rem;margin-left: 14px}
+        width: 25rem;margin-left: 14px}
         .MainQuote {
             font-size: 33px;}
 
-            .patternDivider { margin-left: -47px}
+            .patternDivider { margin-left: -22px}
 
-            .icondice-A {margin-left: 9.5rem}
+            .icondice-A {margin-left: 7.5rem}
 
 
 }
